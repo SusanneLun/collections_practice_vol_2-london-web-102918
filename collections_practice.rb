@@ -29,7 +29,10 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  hash.values.count()
+  dup_array = arrval[:]
+    for i in set(arrval):
+        dup_array.remove(i)       
+    return list(set(dup_array))   
 end
 
     

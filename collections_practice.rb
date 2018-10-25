@@ -16,4 +16,11 @@ array2
 end 
 
 def first_wa(array)
-  
+  array.each do |element|
+  element.start_with? ("wa")
+end
+end
+    
+    
+    
+    

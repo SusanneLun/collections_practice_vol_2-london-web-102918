@@ -15,3 +15,5 @@ end
 array2
 end 
 
+def first_wa(array)
+  

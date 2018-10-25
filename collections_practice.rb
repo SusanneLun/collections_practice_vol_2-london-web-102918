@@ -30,6 +30,7 @@ end
 
 def count_elements(array)
  array.find_all { |e| array.count(e) > 1 }
+ return #{count} + #{e}
 end
 
     

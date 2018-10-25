@@ -38,7 +38,7 @@ def count_elements(array)
   counter
 end
 
-def merge_data(array, array2)
+def merge_data(keys, data)
  names = data.first.keys
    index = 0
   merged = []

@@ -29,10 +29,13 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array2 = []
- array.find_all { |e| array.count(e) > 1 } 
-array2 << #{count} + #{e}
-end
+  dup_array = array.dup
+  counter = []
+  until dup_array.length == 0
+    counter.push(dup_array.first.merge({:count => dup_array.count(dup_array.first)}))
+    dup_array.delete(dup_array.first)
+  end
+  counter
 end
     
     

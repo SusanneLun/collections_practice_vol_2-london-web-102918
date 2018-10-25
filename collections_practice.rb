@@ -39,10 +39,15 @@ def count_elements(array)
 end
 
 def merge_data(array, array2)
- 
- array[0].values.map.with_index {|v, i| array2[i].merge(v)}
- 
-end 
+ names = data.first.keys
+   index = 0
+  merged = []
+   while index < keys.length
+    keys.each {|element| puts merged.push(element.merge(data.first[names[index]])) if element[:first_name]==names[index]}
+    index += 1
+  end
+  merged
+end
     
     
     

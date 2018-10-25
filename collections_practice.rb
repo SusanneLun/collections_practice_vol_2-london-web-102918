@@ -39,9 +39,9 @@ def count_elements(array)
 end
 
 def merge_data(array, array2)
-  string1 = ""
-  string1 = array[0].values.map.with_index {|v, i| array2[i].merge(v)}
-  puts string1
+ 
+ array[0].values.map.with_index {|v, i| array2[i].merge(v)}
+ 
 end 
     
     

@@ -60,6 +60,7 @@ def find_cool
   cool_list
 end
     
-def 
+def organize_schools
+  
     
     

@@ -31,7 +31,7 @@ end
 def count_elements(array)
   array2 = []
  array.find_all { |e| array.count(e) > 1 } 
-array 2 << #{count} + #{e}
+array2 << #{count} + #{e}
 end
 end
     

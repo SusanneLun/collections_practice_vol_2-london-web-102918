@@ -38,7 +38,8 @@ def count_elements(array)
   counter
 end
 
-
+def merge_data(array, array2)
+  
     
     
     

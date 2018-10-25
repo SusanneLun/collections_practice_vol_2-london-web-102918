@@ -9,6 +9,6 @@ end
 
 def returns_a(array)
   array.map do |element|
-    element.contains_a
+    element.contain_a
 end
 end

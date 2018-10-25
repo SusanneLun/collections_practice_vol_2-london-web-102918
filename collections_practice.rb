@@ -29,7 +29,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
- array.find_all { |e| a.count(e) > 1 }
+ array.find_all { |e| array.count(e) > 1 }
 end
 
     

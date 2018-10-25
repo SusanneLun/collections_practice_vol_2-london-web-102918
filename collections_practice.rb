@@ -12,6 +12,5 @@ def returns_a(array)
   array.map do |element|
   array2 << element if element.include? ("a")
 end
-end
 array2
 end 

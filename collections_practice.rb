@@ -61,7 +61,21 @@ def find_cool(array)
 end
     
 def organize_schools(hash)
-  
+  name = hash.keys
+  locations = {}
+  city = []
+  hash.each {|keys, val| city << val[:location]}
+  index = 0 
+  while index < name.length
+    if locations.include?(city[index])
+      locations[city[index]] += [name[index]]
+    else
+      locations[city[index]] = [name[index]]
+    end
+    index += 1
+  end
+  locations
+end
   
     
     

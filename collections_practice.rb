@@ -17,9 +17,13 @@ end
 
 def first_wa(array)
   array.each do |element|
-  element.? ("wa")
+  if element.slice(0,2) == "wa"
+      return element
 end
 end
+nil 
+end 
+
     
     
     

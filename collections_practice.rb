@@ -8,5 +8,8 @@ def begins_with_r(array)
 end
 
 def returns_a(array)
-  array.each do |element|
-return 
+  array2 = array[0..length] do |element|
+    element.contains? ("a")
+end
+array2
+end

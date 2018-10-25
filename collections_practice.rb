@@ -50,10 +50,16 @@ def merge_data(keys, data)
 end
     
     
-    def find_cool
-      
+def find_cool
+      cool_list = []
+  array.each do |element|
+    if element[:temperature] == "cool"
+      cool_list << element
     end
+  end
+  cool_list
+end
     
-    
+def 
     
     

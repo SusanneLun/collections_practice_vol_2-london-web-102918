@@ -10,6 +10,8 @@ end
 def returns_a(array)
   array2 = []
   array.map do |element|
-  if  element.include?
+  array2 << element if element.include? ("a")
 end
 end
+array2
+end 

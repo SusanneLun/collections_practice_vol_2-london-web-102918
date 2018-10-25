@@ -8,6 +8,7 @@ def begins_with_r(array)
 end
 
 def returns_a(array)
+  array2 = []
   array.map do |element|
     element.contain_a
 end

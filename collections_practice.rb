@@ -31,7 +31,6 @@ end
 def count_elements(array)
   dup_array = arrval[:]
     for i in set(arrval):
-        dup_array.remove(i)       
     return list(set(dup_array))   
 end
 

@@ -1,4 +1,4 @@
 def begins_with_r(array)
   array.each do |element|
-    if 
+    if element.start_with? 
 end

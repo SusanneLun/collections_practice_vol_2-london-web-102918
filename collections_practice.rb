@@ -24,7 +24,8 @@ end
 nil 
 end 
 
-    
+def remove_non_strings(array)
+  
     
     
     

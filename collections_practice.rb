@@ -7,3 +7,6 @@ def begins_with_r(array)
     true 
 end
 
+def returns_a(array)
+  array.each do |element|
+return 

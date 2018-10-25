@@ -29,8 +29,9 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
- array.find_all { |e| array.count(e) > 1 }
- puts #{count} + #{e}
+  array2 = []
+ array.find_all { |e| array.count(e) > 1 } 
+array 2 << #{count} + #{e}
 end
 
     

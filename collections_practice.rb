@@ -29,9 +29,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  dup_array = arrval[:]
-    for i in set(arrval):
-    return list(set(dup_array))   
+ counts = Counter(array)  
 end
 
     

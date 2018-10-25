@@ -7,7 +7,7 @@ def begins_with_r(array)
     true 
 end
 
-def returns_a(array)
+def contain_a(array)
   array2 = []
   array.map do |element|
   array2 << element if element.include? ("a")
